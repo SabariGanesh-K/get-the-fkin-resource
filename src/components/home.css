@@ -1,0 +1,32 @@
+.home{
+    background-color: #121212;
+
+width: 100%;
+height: 100%;
+background-attachment: fixed;
+}
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.introwords{
+    width: 50%;
+    font-size: 5rem;
+      margin: 4%;
+      background: rgb(244,71,71);
+      background: linear-gradient(90deg, rgba(244,71,71,1) 0%, rgba(121,9,9,1) 47%, rgba(255,175,0,1) 100%);
+    background-clip: text;
+    color: transparent;
+    justify-content: center;
+    align-items: center;
+}
+
+.introgif{
+    width: 50%;
+    justify-content: center;
+margin: 4%;
+}
