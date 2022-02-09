@@ -17,7 +17,7 @@ background-attachment: fixed;
 
 .introwords{
     width: 50%;
-    font-size: 5rem;
+    font-size: 400%;
   
       background: rgb(244,71,71);
       background: linear-gradient(90deg, rgba(244,71,71,1) 0%, rgba(121,9,9,1) 47%, rgba(255,175,0,1) 100%);
@@ -65,6 +65,8 @@ background-attachment: fixed;
 .stats{
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
     
 }
 .statsbox{
@@ -75,11 +77,12 @@ background-attachment: fixed;
     margin: 4%;
     font-size: 2rem;
     align-items: center;
-    width: 150%;
+    width: 60%;
 }
 .statsbox:hover{
-    width: 175%;
+    /* width: 60%; */
     cursor:pointer;
+    background: rgba(0,0,0,0)
 }
 .statsbox_content{
     background: rgb(5, 6, 45);
@@ -194,6 +197,7 @@ border-radius: 10px;
        display: flex;
        flex-direction: row;
        justify-content: space-around;
+       flex-wrap: wrap;
        margin-top: 4%;
        margin-bottom: 4%;
    }
@@ -249,7 +253,7 @@ border-radius: 10px;
    }
    
    /* From css.creators.io */
-.creator {
+.creatorbutton {
     align-items: center;
     background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
     border: 0;
@@ -272,14 +276,15 @@ border-radius: 10px;
     white-space: nowrap;
     cursor: pointer;
     transition: all .3s;
+    margin-top: 7%;
    }
    
-   .creator:active,
+   .creatorbutton:active,
    .creator:hover {
     outline: 0;
    }
    
-   .creator span {
+   .creatorbutton span {
     background-color: rgb(5, 6, 45);
     padding: 16px 24px;
     border-radius: 6px;
@@ -288,13 +293,106 @@ border-radius: 10px;
     transition: 300ms;
    }
    
-   .creator:hover span {
+   .creatorcardcontainer{
+       margin: 3%;
+   }
+   .creatorbutton:hover span {
     background: none;
    }
    
-   .creator:active {
+   .creatorbutton:active {
     transform: scale(0.9);
    }
+   .creatorcard {
+  
+    /* background-color: #212121; */
+    background-color: #ca7968;
+background-image: linear-gradient(220deg, #ca7968 0%, #0c0c0c 74%);
 
+    border-radius: 1rem;
+    border: #212121 0.2rem solid;
+    transition: all 0.4s ease-in;
+    box-shadow: 0.4rem 0.4rem 0.6rem #00000040;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   }
+   
+   .creatorcard:hover {
+    transform: translateY(-1.5rem);
+    border: #f2295bf0 0.2em solid;
+    border-radius: 2.5rem 0 2.5rem 0;
+   }
 
+   .creatordp{
+       margin: 1%;
+   }
+   .creatorProfile{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       /* align-items: center; */
+   }
+   .CreatorSocials{
+       display: flex;
+       flex-direction: row;
+       flex-wrap: nowrap;
+       justify-content: space-between;
+
+   }
+   .creatorName{
+       font-size: 300%;
+       color: white;
+
+   }
+   .creatortitle{
+       font-size: 300%;
+       color: white;
+       text-align: center;
+   }
+
+   .opensourcecontainer {
+  margin: 3%;
+    /* background-color: #212121; */
+    background-color: #000000;
+    background-image: linear-gradient(220deg, #000000 0%, #5e5368 74%);
+    
+
+    border-radius: 1rem;
+    border: #212121 0.2rem solid;
+    transition: all 0.4s ease-in;
+    box-shadow: 0.4rem 0.4rem 0.6rem #00000040;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+   }
+   
+   .opensourcecontainer:hover {
+    transform: translateY(-1.5rem);
+    border: #f2295bf0 0.2em solid;
+    border-radius: 2.5rem 0 2.5rem 0;
+   
+   }
+   .frontend{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       text-align: center;
+   }
+   .resource{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+   }
+   .os_categ_pic:hover{
+width: 150px;
+cursor: pointer;
+   }
+
+   .os_categ_title{
+    font-size: 150%;
+    color: white;
+    font-weight: bold;
+}
 
