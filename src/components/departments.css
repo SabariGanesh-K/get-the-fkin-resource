@@ -1,0 +1,23 @@
+.Deptcard{
+    background-color: black;
+    color:#f29544;
+    font-size: 100%;
+    text-align: center;
+    margin: 4%;
+    align-content: center;
+    display: flex;
+    font-size: 150%;
+    border-radius: 30px;
+    font-weight: bold;
+    justify-content: center;
+}   
+
+.Deptcard:hover{
+    background-color: #f29544;
+    color:black;
+    cursor: pointer;
+}
+.deptcardcontainer{
+    display: flex;
+    justify-content: center;
+}

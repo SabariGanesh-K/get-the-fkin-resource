@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <div className="home">
       <div className="intro">
-     
+        
         {/* <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true}>    */}
         <div className="introwords">
           <span >EXPLORE <br/> COMPUTER <br/> SCIENCE</span>

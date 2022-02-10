@@ -1,4 +1,5 @@
-{"Introduction To Computer Science": [
+export const  DATA = [
+{"id":0,"dept":"Introduction To Computer Science","resources": [
     { "title":"CS 10 - The Beauty and Joy of Computing - Spring 2015 - Dan Garcia - UC Berkeley InfoCoBuild","link":"http://www.infocobuild.com/education/audio-video-courses/computer-science/cs10-spring2015-berkeley.html"}
  
   ,{ "title":"6.0001 - Introduction to Computer Science and Programming in Python - MIT OCW","link":"https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/lecture-videos/"} 
@@ -18,11 +19,11 @@
  
  ,{"title":"CS 1301 Intro to computing - Gatech","link":"https://www.cc.gatech.edu/classes/AY2016/cs1301c_fall/"} 
  
- ,{"title":"CS 106A - Programming Methodology, Stanford University","link":"https://see.stanford.edu/Course/CS106A","bonus":"https://www.youtube.com/playlist?list=PL84A56BC7F4A1F852"} 
+ ,{"title":"CS 106A - Programming Methodology, Stanford University","link":"https://see.stanford.edu/Course/CS106A","bonus1":"https://www.youtube.com/playlist?list=PL84A56BC7F4A1F852"} 
  
- ,{"title":"CS 106B - Programming Abstractions, Stanford University","link":"https://see.stanford.edu/Course/CS106B","bonus":"https://www.youtube.com/playlist?list=PLnfg8b9vdpLn9exZweTJx44CII1bYczuk"} 
+ ,{"title":"CS 106B - Programming Abstractions, Stanford University","link":"https://see.stanford.edu/Course/CS106B","bonus1":"https://www.youtube.com/playlist?list=PLnfg8b9vdpLn9exZweTJx44CII1bYczuk"} 
  
- ,{"title":"CS 106X - Programming Abstractions in C++","link":"http://web.stanford.edu/class/cs106x/","bonus":"https://www.youtube.com/playlist?list=PLrivl8gTKLcpIJ-ktHCxMEgWOn8LawYhb"} 
+ ,{"title":"CS 106X - Programming Abstractions in C++","link":"http://web.stanford.edu/class/cs106x/","bonus1":"https://www.youtube.com/playlist?list=PLrivl8gTKLcpIJ-ktHCxMEgWOn8LawYhb"} 
  
  ,{"title":"CS 107 - Programming Paradigms, Stanford University","link":"https://see.stanford.edu/Course/CS107"} 
  
@@ -52,8 +53,8 @@
  
  ,{"title":"Modern C++ (Lecture & Tutorials, 2020, Vizzo & Stachniss) - University of Bonn","link":"https://www.youtube.com/playlist?list=PLgnQpQtFTOGRM59sr3nSL8BmeMZR9GCIA"}
  
- ],
-"Data Structures and Algorithms":[
+ ]},
+{"id":1,"dept":"Data Structures and Algorithms","resources":[
     {"title":"6.006 - Introduction to Algorithms, MIT OCW","link":"https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/"} 
  
     ,{"title":"Algorithms: Design and Analysis 1 - Stanford University","link":"https://www.youtube.com/playlist?list=PLXFMmlk03Dt7Q0xr1PIAriY5623cKiH7V"} 
@@ -149,8 +150,8 @@
     ,{"title":"Graph Theory - IISC Bangalore","link":"https://nptel.ac.in/courses/106108054/"} 
     
     ,{"title":"Data Structures - mycodeschool","link":"https://www.youtube.com/watch?v=92S4zgXN17o&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P"}
-   ],
-"DataBase Management System":[
+ ]},
+{"id":2,"dept":"DataBase Management System","resources":[
     {"title":"CMPSC 431W Database Management Systems, Fall 2015 - Penn State University","link":"http://www.cse.psu.edu/~wul2/cmpsc431w/","bonus1":"https://www.youtube.com/playlist?list=PLstRzn3gXZMdXqAiVJ1NN2CoyXHqma7pQ   "}
       
       ,{"title":"CS121 - Introduction to Relational Database Systems, Fall 2016 - Caltech","link":"http://users.cms.caltech.edu/~donnie/cs121/   "}
@@ -194,9 +195,8 @@
       ,{"title":"In-Memory Data Management (2013)Prof. Hasso Plattner - HPI","link":"https://open.hpi.de/courses/imdb2013/items/72j6pftms3dOSunM98JhfW   "}
       
       ,{"title":"Distributed Data Management (WT 2019/20) - Dr. Thorsten Papenbrock - HPI","link":"https://www.tele-task.de/series/1285/"}
-   ],
-   "Network":
-   [
+ ]},
+   {"id":3,"dept":"Network","resources" :[
        {"title":"Fundamentals of Computer Networks - CMU","link":"http://www.ini740.com/"}
    
    ,{"title":"CS 144 Introduction to Computer Networking - Stanford University, Fall 2013","link":"http://www.scs.stanford.edu/10au-cs144/","bonus1":"https://www.youtube.com/playlist?list=PLvFG2xYBrYAQCyz4Wx3NPoYJOFjvU7g2Z"}
@@ -242,10 +242,9 @@
    ,{"title":"Internetworking with TCP/IP by Prof. Dr. Christoph Meinel - HPI","link":"https://www.youtube.com/playlist?list=PLoOmvuyo5UAfY5VrkObHTckZHwPsS1VCA"}
    
    ,{"title":"CS798: Mathematical Foundations of Computer Networking - University of Waterloo","link":"https://www.youtube.com/playlist?list=PLFB088DB91845CA34"}
-   ],
-   " Web Programming and Internet Technologies":[{"title":"CS50's Web Programming with Python and JavaScript","link":"https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript"}
-
-    ,{"title":"Web Design Decal - HTML/CSS/JavaScript Course, University of California, Berkeley","link":"http://live.wdd.io/"}
+]},
+{"id":4,"dept":" Web Programming and Internet Technologies","resources":[{"title":"CS50's Web Programming with Python and JavaScript","link":"https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript"}
+,{"title":"Web Design Decal - HTML/CSS/JavaScript Course, University of California, Berkeley","link":"http://live.wdd.io/"}
     
     ,{"title":"CS 75 Building Dynamic Websites - Harvard University","link":"http://cs75.tv/2012/summer/"}
     
@@ -270,8 +269,8 @@
     ,{"title":"MOOC - Web Development - Udacity","link":"https://www.youtube.com/playlist?list=PLAwxTw4SYaPlLXUhUNt1wINWrrH9axjcI"}
     
     ,{"title":"Web Technologies Prof. Dr. Christoph Meinel - HPI","link":"https://open.hpi.de/courses/webtech2015/items/4oqxq6euKfhXgHOMwFBxbn"}
-    ],
-    "Embedded systems":[
+]},
+{"id":5,"dept": "Embedded systems","resources":[
         {"title":"EE319K Embedded Systems - UT Austin","link":"http://users.ece.utexas.edu/~valvano/Volume1/E-Book/VideoLinks.htm"}
            
            ,{"title":"EE445L Embedded Systems Design Lab, Fall 2015, UTexas","link":"https://www.youtube.com/playlist?list=PLyg2vmIzGxXGBxFu8nvX3KBadSdsNAvbA"}
@@ -323,8 +322,8 @@
            ,{"title":"NOC:Advanced IOT Applications - IISc Bangalore","link":"https://nptel.ac.in/courses/108/108/108108123/"}
            
            ,{"title":"NOC:Design for internet of things - IISc Bangalore","link":"https://nptel.ac.in/courses/108/108/108108098/"}
-        ],
-    "Computer Graphics":[
+]},
+{"id":6,"dept":"Computer Graphics","resources":[
         {"title":"CS184 - Computer Graphics, Fall 2012 - UC Berkeley","link":"http://inst.eecs.berkeley.edu/~cs184/fa12/onlinelectures.html"}
                    
                    ,{"title":"ECS 175 - Computer Graphics, Fall 2009 - UC Davis","link":"https://itunes.apple.com/us/itunes-u/computer-graphics-fall-2009/id457893733?mt=10"}
@@ -360,8 +359,5 @@
                    ,{"title":"CS 468 - Differential Geometry for Computer Science - Stanford University","link":"http://graphics.stanford.edu/courses/cs468-13-spring/schedule.html","bonus1":"https://www.youtube.com/playlist?list=PL_deCdukpyu1rdH85XsEEREbpoqEauiJl)"}
                    
                    ,{"title":"CMU 15-462/662: Computer Graphics","link":"http://15462.courses.cs.cmu.edu/fall2020/"}
-        ]
-        
-   
- 
-}
+]}
+]
