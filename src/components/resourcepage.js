@@ -1,12 +1,17 @@
 import React, { useState } from "react";
+import { useParams } from "react-router";
 import { DATA } from "../data/data";
 import Resource from "./resource";
 
-const d = DATA[0].resources
+
 
 
 const Resources=() =>{
-  
+    let  {deptid} = useParams()
+ console.log(deptid)
+
+
+    const d = DATA[parseInt(deptid,10)].resources
 const resourceslist = d.map((item)=>{
 console.log(item)
 

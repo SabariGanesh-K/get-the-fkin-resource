@@ -1,15 +1,18 @@
 import React from "react";
 import "./departments.css";
 import { DATA } from "../data/data";
+import { NavLink } from "react-router-dom";
 
 const Departments = () => {
   const categories = DATA.map((item) => {
-    console.log(item)
+    console.log(item);
     return (
       <div key={item.id}>
-          <div className = "deptcardcontainer">
-        <div className="Deptcard">{item["dept"]}</div>
-        </div>
+        <NavLink className="nav-link" to={`/categories/${item.id}`} style = {{textDecoration:'none'}} >
+          <div className="deptcardcontainer">
+            <div className="Deptcard">{item["dept"]}</div>
+          </div>
+        </NavLink>
       </div>
     );
   });

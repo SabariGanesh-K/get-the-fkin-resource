@@ -45,7 +45,7 @@ const Home = () => {
       </div>
       <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true}>
         <div className="buttonsContainer">
-          <NavLink className="nav-link" to="/">
+          <NavLink className="nav-link" to="/categories">
             <button className="go">Go Ahead</button>
           </NavLink>
           <a href="#" style={{ textDecoration: "none" }}>

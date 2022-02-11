@@ -7,13 +7,12 @@ import Departments from './components/departments';
 import Resources from './components/resourcepage';
 function App() {
   return (
-<Resources/>
+<BrowserRouter>
+    <Main/>
+</BrowserRouter>
 
 
   );
 }
 
 export default App;
-{/* <BrowserRouter>
-    <Main/>
-</BrowserRouter> */}
