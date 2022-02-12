@@ -8,7 +8,7 @@ const Resource = (props) => {
     const  bonus1 = props.bonus1
     const bonus2 = props.bonus2
     const bonus3 = props.bonus3
-    const count = ">"
+  
     function buttons(){
         if (typeof( bonus1) === "undefined") {
           return (

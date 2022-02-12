@@ -1,7 +1,8 @@
 .home{
-    background-color: #130f40;
-    background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
-
+    /* background-color: #130f40;
+    background-image: linear-gradient(315deg, #130f40 0%, #000000 74%); */
+    background: url('../media/bg.jpg');
+scroll-behavior: smooth;
 width: 100%;
 height: 100%;
 background-attachment: fixed;
@@ -18,9 +19,9 @@ background-attachment: fixed;
 .introwords{
     width: 50%;
     font-size: 400%;
-  
-      background: rgb(244,71,71);
-      background: linear-gradient(90deg, rgba(244,71,71,1) 0%, rgba(121,9,9,1) 47%, rgba(255,175,0,1) 100%);
+    background-color: #89d4cf;
+    background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 74%);
+    
       background-size: 50%;
     background-clip: text;
     font-family: 'Baloo 2', cursive;
@@ -221,6 +222,7 @@ border-radius: 10px;
            inset 0 0 .75em .25em var(--glow-color);
     text-shadow: 0 0 .5em var(--glow-color);
     position: relative;
+    cursor: pointer;
     transition: all 0.3s;
    }
    
@@ -306,9 +308,8 @@ border-radius: 10px;
    .creatorcard {
   
     /* background-color: #212121; */
-    background-color: #ca7968;
-background-image: linear-gradient(220deg, #ca7968 0%, #0c0c0c 74%);
-
+    background-color: #2d3436;
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
     border-radius: 1rem;
     border: #212121 0.2rem solid;
     transition: all 0.4s ease-in;
@@ -345,6 +346,15 @@ background-image: linear-gradient(220deg, #ca7968 0%, #0c0c0c 74%);
        color: white;
 
    }
+.creatorName:hover{
+    color: black;
+}
+.socialmedia{
+    border-radius: 20px;
+}
+.socialmedia:hover{
+    background-color: blanchedalmond;
+}
    .creatortitle{
        font-size: 300%;
        color: white;
