@@ -74,7 +74,7 @@ const Resource = (props) => {
     return(
      
         <div className="resourcecontainer">
-        <div className="resourcecount"> &gt;&gt;&gt; </div>
+        <div className="resourcecount"> &gt;&gt; </div>
         <div className="resourcecontent">
           <div className="resourcetitle">
               {title}

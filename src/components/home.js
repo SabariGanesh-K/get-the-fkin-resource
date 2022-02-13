@@ -13,6 +13,7 @@ import github from "../media/social/github.png";
 import mail from "../media/social/mail.png";
 import frontend from "../media/frontend.png";
 import resource from "../media/resource.png";
+import CountUp from "react-countup";
 import ScrollToTop from 'react-scroll-to-top'
 const Home = () => {
   return (
@@ -21,9 +22,9 @@ const Home = () => {
       <div className="intro">
         {/* <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true}>    */}
         <div className="introwords">
-          <span>
-            EXPLORE <br /> COMPUTER <br /> SCIENCE
-          </span>
+          <div>
+            EXPLORE </div><div> COMPUTER </div> <div>SCIENCE
+            </div>
         </div>
         {/* </ScrollAnimation> */}
 
@@ -46,6 +47,8 @@ const Home = () => {
           </ScrollAnimation>
         </div>
       </div>
+<br/> <br/><br/>
+
       <ScrollAnimation animateIn="animate__fadeIn" animateOnce={true}>
         <div className="buttonsContainer">
           <NavLink className="nav-link" to="/categories">
@@ -63,7 +66,7 @@ const Home = () => {
           </a>
         </div>
       </ScrollAnimation>
-
+      <br/> <br/><br/>
       <div className="introsubtitle">
         No more Fkin excuses , get ur resource and START ROCKING !!
       </div>
@@ -85,17 +88,17 @@ const Home = () => {
       <div className="stats">
         <div className="statsbox">
           <div className="statsbox_content">
-            <div>{20} + Depts</div>
+            <div><CountUp  end={20}/>+ Depts</div>
           </div>
         </div>
         <div className="statsbox">
           <div className="statsbox_content">
-            <div>{1000} + Modules</div>
+            <div><CountUp  end={1000}/> + Modules</div>
           </div>
         </div>
         <div className="statsbox">
           <div className="statsbox_content">
-            <div>{200} + Lectures</div>
+            <div><CountUp  end={200}/> + Lectures</div>
           </div>
         </div>
       </div>
@@ -146,21 +149,31 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <br/><br/>
       <div id="opensource" className="creatortitle">
         OPEN SOURCE 🚀
       </div>
       <div id="opensource">
         <div className="opensourcecontainer">
+        <a
+                href="https://github.com/Developer-Y/cs-video-courses"  target = "_blank"
+                style={{ textDecoration: "none" }} rel="noreferrer"
+              >
           <div className="resource">
             <img src={resource} className="os_categ_pic" />
             <div className="os_categ_title"> RESOURCE </div>
-          </div>
+          </div></a>
+          <a
+                href="https://github.com/SabariGanesh-K/get-the-fkin-resource"  target = "_blank"
+                style={{ textDecoration: "none" }} rel="noreferrer"
+              >
           <div className="frontend">
             <img src={frontend} className="os_categ_pic" />
             <div className="os_categ_title">FRONTEND</div>
-          </div>
+          </div></a>
         </div>
       </div>
+      <br/><br/><br/>
     </div>
   );
 };

@@ -359,5 +359,6 @@ export const  DATA = [
                    ,{"title":"CS 468 - Differential Geometry for Computer Science - Stanford University","link":"http://graphics.stanford.edu/courses/cs468-13-spring/schedule.html","bonus1":"https://www.youtube.com/playlist?list=PL_deCdukpyu1rdH85XsEEREbpoqEauiJl)"}
                    
                    ,{"title":"CMU 15-462/662: Computer Graphics","link":"http://15462.courses.cs.cmu.edu/fall2020/"}
-]}
+]},
+
 ]

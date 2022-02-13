@@ -17,7 +17,7 @@ background-attachment: fixed;
 }
 
 .introwords{
-    width: 50%;
+    /* width: 100%; */
     font-size: 400%;
     background-color: #89d4cf;
     background-image: linear-gradient(315deg, #89d4cf 0%, #6e45e1 74%);
@@ -27,6 +27,7 @@ background-attachment: fixed;
     font-family: 'Baloo 2', cursive;
     color: transparent;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items:flex-start;
     
@@ -60,8 +61,11 @@ background-attachment: fixed;
     flex-direction: column;
     color: blanchedalmond;
     margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
     font-size: 1.5rem;
     align-items: center;
+    font-family: 'Courgette', cursive;
 }
 .stats{
     display: flex;
@@ -99,8 +103,7 @@ background-attachment: fixed;
 }
 
 .introsubtitle{
-    background-color: #c62128;
-background-image: linear-gradient(147deg, #c62128 0%, #a00000 74%);
+    background-color: #92a8d1;
 display: flex;
 justify-content: center;
 color: black;
@@ -316,6 +319,7 @@ border-radius: 10px;
     box-shadow: 0.4rem 0.4rem 0.6rem #00000040;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
    }
    
@@ -356,9 +360,10 @@ border-radius: 10px;
     background-color: blanchedalmond;
 }
    .creatortitle{
-       font-size: 300%;
+       font-size: 200%;
        color: white;
        text-align: center;
+       font-family: 'Rowdies', cursive;
    }
 
    .opensourcecontainer {
@@ -374,6 +379,7 @@ border-radius: 10px;
     box-shadow: 0.4rem 0.4rem 0.6rem #00000040;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
    }
    
