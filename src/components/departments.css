@@ -24,6 +24,11 @@
     
 border-radius: 50px;
 }
+.quote2{
+    font-size: larger;
+    color: white;
+    font-weight: bolder;
+}
 
 .wrapper {
     perspective: 500px;

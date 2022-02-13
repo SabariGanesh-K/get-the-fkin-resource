@@ -32,6 +32,7 @@ const Departments = () => {
         </NavLink>
       </div>
       <ScrollToTop smooth />
+      <div className = "quote2">Kehndi  Hundi Si , Learning CS is now Easy !! </div>
       {categories}
     </div>
   );
